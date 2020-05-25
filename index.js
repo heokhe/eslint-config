@@ -5,6 +5,10 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'implicit-arrow- linebreak': 'off',
+    'class-methods-use-this': 'off',
+    'nonblock-statement-body-position': 'off',
+    curly: 'off',
     'func-names': 'off',
     'no-param-reassign': 'off',
     'no-restricted-syntax': 'off',
@@ -22,6 +26,6 @@ module.exports = {
     'guard-for-in': ['off'],
     'no-continue': 'off',
     radix: 'off',
-    'no-console': 'off'
+    'no-console': 'warn'
   }
 };
