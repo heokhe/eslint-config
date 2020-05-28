@@ -10,6 +10,10 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkh12/eslint-config.git"
+  },
   "keywords": [
     "eslint",
     "eslint-config"
